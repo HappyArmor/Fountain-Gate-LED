@@ -83,7 +83,7 @@ void loop() {
 
     // Turn ON the humidifier if humidity is below 60 and current state is OFF
     // touchState > 0 means humidifier is currently OFF
-    if (humi < 60 && touchState > 0) {
+    if (humi < 70 && touchState > 0) {
       Serial.print("Turning ON | Touch = ");
       Serial.println(touchState);
       Serial.print("Humidity = ");
@@ -96,7 +96,7 @@ void loop() {
 
     // Turn OFF the humidifier if humidity is >= 65 and currently ON
     // touchState == 0 means humidifier is currently ON
-    if (humi >= 65 && touchState == 0) {
+    if (humi >= 75 && touchState == 0) {
       Serial.print("Turning OFF | Touch = ");
       Serial.println(touchState);
       Serial.print("Humidity = ");
