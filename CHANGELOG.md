@@ -1,20 +1,48 @@
 # Changelog
 
-## 格式
+## Format
 
-每一节按时间倒序排列（最新在上面）
-使用 Added / Changed / Fixed / Removed / Planned 这些标签分类内容
-日期格式 [YYYY-MM-DD]
-可加 [Unreleased] 用于正在开发中的部分（可以随时更新）
+Each section is sorted in reverse chronological order (latest on top).
+Use labels like **Added / Changed / Fixed / Removed / Planned** to categorize changes.
+Date format: `[YYYY-MM-DD]`
+`[Unreleased]` can be used to track ongoing development work.
 
-## [Added] [2025-06-22] [15:33] - 基本文件
+---
 
-1. 创建更新日志
-2. 创建Project_Overview
-   1. 确定系统状态
-   2. 需要的电气原件
+## \[Changed] \[Added] \[2025-07-30] \[23:45] – Codebase Internationalization and Git Update
 
-## [Added] [Changed] [2025-07-14] [23:35] - 基本文件
+1. **Changed**: Translated all humidifier control code comments from Chinese to English.
+2. **Added**: Created a professional English project description (README format) for `Fountain Gate`.
+3. **Changed**: Adjusted serial print messages and LCD content to English for international readability.
+4. **Changed**: Successfully merged and pushed latest commit to GitHub via Git Bash.
 
-1. 完成了Flow Chart
-2. 根据Chat 4o的建议，用表格的形式显示硬件。
+---
+
+## \[Added] \[2025-07-28] \[21:30] – Flowchart and System States
+
+1. Added full English translation of system logic and state machine.
+2. Completed manual and automatic flowcharts using Mermaid.js.
+3. Defined detailed descriptions for:
+
+   * Auto/Manual humidifier control
+   * Human detection logic
+   * Mist control logic
+   * State transitions
+
+---
+
+## \[Added] \[Changed] \[2025-07-14] \[23:35] – Basic Files
+
+1. Completed flowcharts
+2. Updated hardware module section into table format based on ChatGPT-4o suggestions.
+
+---
+
+## \[Added] \[2025-06-22] \[15:33] – Initial Setup
+
+1. Created changelog
+2. Created `Project_Overview`
+
+   * Defined system states
+   * Listed required hardware components
+
